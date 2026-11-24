@@ -26,10 +26,18 @@ The lab uses four CSV files:
 - Analyze retail data using SQL
 - Reconcile raw and clean datasets
 
+## Findings Summary
+
+- Loaded customer, product, raw order, and cleaned order datasets using Python and pandas.
+- Stored raw datasets in SQLite and created staging views for analysis.
+- Performed data quality checks for missing values, duplicates, invalid records, and referential integrity.
+- Conducted retail analysis covering overall sales, product performance, customer performance, and monthly trends.
+- Reconciled the raw orders dataset with the cleaned orders reference dataset and documented differences.
+
 ## Deliverables
-- Completed Google Colab notebook
-- SQLite database (`retail_lab.db`)
-- Findings summary
+
+- `Retail_ELT_Riya.ipynb` — Completed ELT workflow, SQL queries, outputs, and analysis.
+- `retail_lab.db` — SQLite database containing the raw tables and staging views.
 
 ---
 **Author:** Riya Yadav
